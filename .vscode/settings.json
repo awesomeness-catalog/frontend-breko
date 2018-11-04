@@ -1,3 +1,23 @@
 {
+  "editor.tabSize": 2,
+  "editor.formatOnSave": false,
+  // Enable/disable default JavaScript formatter (For Prettier)
+  "javascript.format.enable": false,
+  "prettier.eslintIntegration": true,
+  "[html]": {
+    "editor.formatOnSave": false
+  },
+  "html.format.enable": true,
+  "html.format.indentHandlebars": true,
+  "html.format.maxPreserveNewLines": 0,
+  "files.associations": {
+    "*.js": "javascriptreact"
+  },
+  "search.exclude": {
+    "**/node_modules": true
+  },
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "prettier.printWidth": 90,
+  "languageStylus.useSeparator": false,
   "javascript.implicitProjectConfig.experimentalDecorators": true
 }
