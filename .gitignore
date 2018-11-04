@@ -16,3 +16,4 @@ logs
 *.sublime-workspace
 *untracked*
 .nyc_output
+package-lock.json
