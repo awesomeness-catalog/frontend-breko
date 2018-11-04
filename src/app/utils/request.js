@@ -3,7 +3,7 @@ import debug from 'debug'
 
 const log = debug('utils.request')
 
-export const fetch = async (endpoint, options) => {
+const fetch = async (endpoint, options) => {
   log('requesting', endpoint)
   const response = await (global || window).fetch(endpoint, options)
   log('respsonse', { endpoint, status: response.status })
@@ -22,4 +22,8 @@ export const fetch = async (endpoint, options) => {
   return ~contentType.indexOf('application/json')
     ? response.json()
     : response.text()
+}
+
+export default {
+  fetch,
 }
