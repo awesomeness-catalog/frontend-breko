@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotFoundRoute Component matches snapshot 1`] = `
+<section
+  className="NotFoundRoute"
+>
+  <HelmetWrapper
+    defer={false}
+    encodeSpecialCharacters={true}
+  >
+    <title>
+      Doesn't exist
+    </title>
+  </HelmetWrapper>
+  <h2>
+    404
+  </h2>
+  <p>
+    Page not found!
+  </p>
+</section>
+`;

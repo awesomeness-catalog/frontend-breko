@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BarRoute Component matches snapshot 1`] = `
+<section
+  className="BarRoute"
+>
+  <HelmetWrapper
+    defer={false}
+    encodeSpecialCharacters={true}
+  >
+    <title>
+      Bar
+    </title>
+  </HelmetWrapper>
+  <h2>
+    The Bar Route!
+  </h2>
+  <p>
+    API request to the 
+    <code>
+      /api/bar
+    </code>
+     endpoint.
+  </p>
+  <div
+    className="src-app-routes-BarRoute-BarRoute-module-block"
+  />
+</section>
+`;
